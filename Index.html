@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape_Infrastructures</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Carousel.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- skyline css  -->
+    <link rel="stylesheet" href="css/skyline.css">
+    <!-- Scroll Reveal -->
+    <link rel="stylesheet" href="scroll_reveal/swiper-bundle.min.css">
+
+
+    <!-- Google Fonts and icons -->
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- NAVBAR START -->
+
+    <nav>
+        <div class="logo">
+            <img src="images/Logo/SE_LOGO.png" alt="Shapes Enterprise" >
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">HOME</a></li>
+
+            <li class="dropdown">
+                <a href="#">COMMERCIAL &nbsp;<i class="fa-solid fa-caret-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Ongoing Projects</a></li>
+                    <li><a href="#">Completed Projects</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">RESIDENCIAL &nbsp;<i class="fa-solid fa-caret-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Ongoing Projects</a></li>
+                    <li><a href="#">Completed Projects</a></li>
+                </ul>
+            </li>
+            <li><a href="#value">VALUE</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <div class="cta" id="loginBtn"><a href="#">GET IN TOUCH</a></div>
+        </ul>
+        <div class="hamburger">
+            <span class="material-symbols-outlined">menu</span>
+        </div>
+        <div class="close-btn">
+            <span class="material-symbols-outlined">close</span>
+        </div>
+    </nav>
+
+
+    <div id="loginPopup" class="login-popup">
+        <div class="popup-content">
+            <span id="closePopup" class="close">&times;</span>
+            <h2>Login Form</h2>
+            <form id="loginForm">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" required>
+
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" required>
+
+                <label for="contact">Contact Number</label>
+                <input type="text" id="contact" name="contact" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Carousel Start -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/Banner/Banner-1.jpg" alt="Shapes Infra" height="710px"
+                    draggable="false"></div>
+            <div class="swiper-slide"><img src="images/Banner/Banner-2.jpg" alt="Shapes Infra" height="710px"
+                    draggable="false"></div>
+            <div class="swiper-slide"><img src="images/Banner/Banner-3.jpg" alt="Shapes Infra" height="710px"
+                    draggable="false"></div>
+        </div>
+        <!-- <div class="swiper-button-next"></div> -->
+        <!-- <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+        <div class="autoplay-progress">
+            <svg viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="20"></circle>
+            </svg>
+            <span></span>
+        </div>
+    </div>
+
+
+    <!-- information about group -->
+    <div class="container-intro">
+        <section class="intro">
+            <div class="text-content">
+                <h2>WELCOME TO</h2>
+                <h1 style="font-family: 'Times New Roman', Times, serif;">SHAPES INFRABUILD</h1>
+                <p>We are the Go-To-Company when you are looking for buying a property in Vadodara.</p>
+                <p>We understand that and take the utmost care and effort in making sure that all your needs and
+                    requirements are taken care of. We believe in providing a professional and patient demeanor to our
+                    genuine clients.</p>
+                <a href="#" class="read-more">READ MORE</a>
+            </div>
+            <div class="image-content">
+                <img src="images/Sketch-3.png" alt="City Sketch">
+            </div>
+        </section>
+
+        <section class="details" id="details">
+            <div class="detail-item">
+                <h3 class="count" data-count="14">14+</h3>
+                <p>Residential towers.</p>
+            </div>
+            <div class="detail-item">
+                <h3 class="count" data-count="117">117+</h3>
+                <p>Exclusive high-end retail experience.</p>
+            </div>
+            <div class="detail-item">
+                <h3 class="count" data-count="60">60+</h3>
+                <p>Bighas of land.</p>
+            </div>
+            <div class="detail-item">
+                <h3 class="count" data-count="25">25+</h3>
+                <p>Sustainable building features.</p>
+            </div>
+            <div class="detail-item">
+                <h3 class="count" data-count="08">08+</h3>
+                <p>Awards Received</p>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Info 2 -->
+    <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home__data">
+                <h1 class="home__title" style="font-family: raleway;;">
+                    Discover <br> Most Suitable <br> Property
+                </h1>
+                <p class="home__description" style="font-family: raleway;">
+                    Find a variety of properties that suit you very easily,
+                    forget all difficulties in finding a residence for you
+                </p>
+
+                <!-- <form action="" class="home__search">
+                    <i class='bx bxs-map'></i>
+                    <input type="search" placeholder="Search by location..." class="home__search-input">
+                    <button type="button" class="button">Search</button>
+                </form> -->
+
+                <div class="home__value">
+                    <div>
+                        <h1 class="home__value-number">
+                            10 <span>+</span>
+                        </h1>
+                        <span class="home__value-description"   style="font-family: raleway;">
+                            Premium <br> Properties
+                        </span>
+                    </div>
+                    <div>
+                        <h1 class="home__value-number">
+                            5K <span>+</span>
+                        </h1>
+                        <span class="home__value-description"  style="font-family: raleway;">
+                            Happy <br> Families
+                        </span>
+                    </div>
+                    <div>
+                        <h1 class="home__value-number">
+                            10K <span>+</span>
+                        </h1>
+                        <span class="home__value-description" style="font-family: raleway;">
+                            Sucessful <br> Deals
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home__images">
+                <div class="home__orbe"></div>
+
+                <div class="home__img">
+                    <img src="images/home.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <div class="projects">
+        <!-- <p> Browse your dream House</p> -->
+        <h1>Our Projects</h1>
+
+    </div>
+    <hr class="hr-pr">
+
+    <div class="card-container">
+        <div class="card">
+            <img src="https://angelinfrabuild.com/img/angel-elysian.jpg" alt="Card Image 6">
+            <div class="card-content">
+                <h3>ElYSIAN HEIGHTS</h3>
+                <p>4 BHK Contemporary Apartments</p>
+                <p>Ongoing Project</p>
+                <a href="#">View More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.aatmiya.in/images/index-projects/Aatmiya%20Selenite.jpg" alt="Card Image 2">
+            <div class="card-content">
+                <h3>SELENITE TWIN-TOWERS</h3>
+                <p>3 BHK Contemporary Flats</p>
+                <p>Completed Project</p>
+                <a href="#">View More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://angelinfrabuild.com/img/ville-36.webp" alt="Card Image 3">
+            <div class="card-content">
+                <h3>NILKANTH GREENS</h3>
+                <p>3 & 4 BHK Luxurious Bungalows</p>
+                <p>Ongoing project</p>
+                <a href="#">View More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://angelinfrabuild.com/img/angel-bliss.jpg" alt="Card Image 4">
+            <div class="card-content">
+                <h3>ANGEL BLISS</h3>
+                <p>3 & 4 BHK Luxurious Bungalows</p>
+                <p>Completed project</p>
+                <a href="#">View More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.aatmiya.in/images/index-projects/Vraj%20Residency.jpg" alt="Card Image 5">
+            <div class="card-content">
+                <h3>VRAJ RESIDENCY</h3>
+                <p>Flats</p>
+                <p>Completed Project</p>
+                <a href="#">View More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.aatmiya.in/images/index-projects/Aatmiya%20Heights.png" alt="Card Image 1">
+            <div class="card-content">
+                <h3>AATMIYA HEIGHTS</h3>
+                <p>Flats</p>
+                <p>Ongoing Project</p>
+                <a href="#">View More</a>
+            </div>
+            <div class="going-btn">
+                <input type="button" value="Ongoing Projects">
+                <input type="button" value="Completed Projects">
+            </div>
+        </div>
+    </div>
+
+    <!-- Value -->
+
+    <section class="value section" id="value">
+        <div class="value__container container grid">
+            <div class="value__images">
+                <div class="value__orbe"></div>
+
+                <div class="value__img">
+                    <img src="https://www.angelinfrabuild.com/img/menu.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="value__content">
+                <div class="value__data">
+                    <span class="section__subtitle">Value</span>
+                    <h2 class="section__title">
+                        Value We Provide<span>.</span>
+                    </h2>
+                    <p class="value__description">
+                        We always ready to help by providing the best service for you.
+                        We believe a good place to live can make your life better and happier.
+                    </p>
+                </div>
+                <br>
+
+                <div class="value__accordion">
+                    <div class="value__accordion-item">
+                        <header class="value__accordion-header">
+                            <i class="fa-solid fa-file-shield"></i> &nbsp;
+                            <h3 class="value__accordion-title">
+                                Best return on investment (ROI) on the market
+                            </h3>
+                            <div class="value__accordion-arrow">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </header>
+
+                        <div class="value__accordion-content">
+                            <p class="value__accordion-description">
+                                Price we provides is the best for you,
+                                we guarantee no price changes on your property due
+                                to various unexpected costs that may come.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="value__accordion-item">
+                        <header class="value__accordion-header">
+                            <i class="fa-solid fa-indian-rupee-sign"style="width: 15px; display:flex; align-item:center; justify-content:center;" ></i> &nbsp;
+                            <h3 class="value__accordion-title">
+                                Prevent unstable prices
+                            </h3>
+                            <div class="value__accordion-arrow">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </header>
+
+                        <div class="value__accordion-content">
+                            <p class="value__accordion-description">
+                                We are fortunate that recent years have offered periods
+                                of stability and limited exposure to cost increases.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="value__accordion-item">
+                        <header class="value__accordion-header">
+                            <i class="fa-solid fa-square-poll-vertical"></i> &nbsp;
+                            <h3 class="value__accordion-title">
+                                Best prices on the market
+                            </h3>
+                            <div class="value__accordion-arrow">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </header>
+
+                        <div class="value__accordion-content">
+                            <p class="value__accordion-description">
+                                We can guarantee that we have best price on the
+                                market for all different big or small properties.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="value__accordion-item">
+                        <header class="value__accordion-header">
+                            <i class="fa-solid fa-square-check" ></i> &nbsp;
+                            <h3 class="value__accordion-title">
+                                Security of your data
+                            </h3>
+                            <div class="value__accordion-arrow">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </header>
+
+                        <div class="value__accordion-content">
+                            <p class="value__accordion-description">
+                                We guarantee your personal information security unless
+                                its legal authorities who needs them LMAO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+
+    <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+            <div class="contact__images">
+                <div class="contact__orbe"></div>
+
+                <div class="contact__img">
+                    <img src="https://angelinfrabuild.com/img/angel-bliss.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="contact__content">
+                <div class="contact__data">
+                    <span class="section__subtitle">Contact Us</span>
+                    <h2 class="section__title">
+                        Easy to Contact us<span>.</span>
+                    </h2>
+                    <p class="contact__description">
+                        Is there a problem finding your dream home? Need a
+                        guide in buying first home? or need a consultation
+                        on residential issues? just contact us.
+                    </p>
+                </div>
+
+                <div class="contact__card">
+                    <div class="contact__card-box">
+                        <div class="contact__card-info">
+                            <i class='bx bx-phone-call'></i>
+
+                            <div>
+                                <h3 class="contact__card-title">
+                                    Call
+                                </h3>
+                                <p class="contact__card-description">
+                                    +91 6351243855
+                                </p>
+                            </div>
+                        </div>
+
+                        <button type="button" class="button contact__card-button"> <a href="tel:+916351243855" target="_blank">Call Now</a></button>
+                    </div>
+
+                    <div class="contact__card-box">
+                        <div class="contact__card-info">
+                            <i class='bx bxs-comment-dots'></i>
+
+                            <div>
+                                <h3 class="contact__card-title">
+                                    Text Message
+                                </h3>
+                                <p class="contact__card-description">
+                                    +91 6351243855
+                                </p>
+                            </div>
+                        </div>
+
+                        <button type="button" class="button contact__card-button"> <a href="sms:+916351243855" target="_blank">Text Now</a></button>
+                    </div>
+
+                    <div class="contact__card-box">
+                        <div class="contact__card-info">
+                            <i class='bx bxs-video'></i>
+
+                            <div>
+                                <h3 class="contact__card-title">
+                                    WhatsApp
+                                </h3>
+                                <p class="contact__card-description">
+                                    +91 6351243855
+                                </p>
+                            </div>
+                        </div>
+
+                        <button type="button" class="button contact__card-button"> <a href="https://whatsapp.com" target="_blank">Message Now</a></button>
+                    </div>
+
+
+                        <!-- <button type="button" class="button contact__card-button"> <a href="https://whatsapp.com" target="_blank">Message Now</a></button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    Shape_Infrabuild <i class='bx bxs-home-alt-2'></i>
+                </a>
+                <p class="footer__description">
+                    Our vision is to find all people <br> 
+                    the best place to live for them.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        About
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Features</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">News & Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Company
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">How We Work?</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Capital</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Security</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Support
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Support Center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Follow Us
+                    </h3>
+                    <ul class="footer__links">
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram" style="cursor: pointer;" targer="_blank"></i></a>
+                        <a href="https://facebook.com"><i class="fa-brands fa-square-facebook" style="cursor: pointer;" targer="_blank"></i></a>
+                        <a href="https://facebook.com"><i class="fa-brands fa-whatsapp" style="cursor: pointer; color: gray;" targer="_blank"></i></a>
+                    </ul>
+
+                    <ul class="footer__social">
+                       <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="footer__social-link">
+                        <i class='bx bxl-facebook-square' ></i>
+                       </a>
+                       <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="footer__social-link">
+                        <i class='bx bxl-instagram-alt' ></i>
+                        </a>
+                        <a href="https://www.pinterest.com/" target="_blank" rel="noopener" class="footer__social-link">
+                            <i class='bx bxl-pinterest' ></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; Shape_Infrabuild. All rigths reserved
+            </span>
+
+            <div class="footer__privacy">
+                <a href="#">Terms & Agreements</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll-up Icon -->
+    <a href="#" class="scroll-to-top">
+        <img src="images/ICONS/Go-to.png" alt="Scroll to Top">
+    </a>
+
+    <!-- WhatsApp Icon -->
+    <a href="https://wa.me/6351243855" class="whatsapp-icon" target="_blank">
+        <img src="images/ICONS/whatsapp_icon.png" alt="WhatsApp">
+    </a>
+
+    <!-- Swiper JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="JS/script.js"></script>
+
+
+    <!--Skyline JS -->
+    <script src="JS/scrollreveal.min.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+
+
+
+</html>
